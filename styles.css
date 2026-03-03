@@ -1,45 +1,34 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
-#openModal {
-    padding: 10px 20px;
-}
-
-/* Modal background */
 .modal {
-    display: none;                 /* IMPORTANT */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
 }
 
-/* Modal box */
 .modal-content {
-    background-color: white;
-    width: 80%;
-    margin: 100px auto;             /* centers horizontally */
-    border-radius: 4px;
+  background-color: white;
+  width: 80%;
+  margin: 100px auto;
+  border-radius: 5px;
 }
 
-/* Header */
 .modal-header {
-    background-color: green;
-    color: white;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-/* Body */
 .modal-body {
-    padding: 15px;
+  padding: 10px;
 }
 
 .close-modal {
-    cursor: pointer;
-    font-size: 20px;
+  cursor: pointer;
+  font-size: 20px;
 }
